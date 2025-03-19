@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+}
+.form1 {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(199, 210, 209);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2%;
+  border-radius: 10px;
+  color: rgb(2, 2, 35);
+}
+.form1 input {
+  border: none;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 45%;
+}
+.form1 div {
+  padding-left: 12%;
+  font-weight: bold;
+  font-size: 25px;
+}
+.form2 {
+  width: 500px;
+  background-color: rgb(50, 4, 2);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2%;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.form2 input,
+.form2 select {
+  color: black;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  height: 25px;
+  padding-left: 2%;
+  border-radius: 40px;
+}
+.form2 .results {
+  background-color: #605150;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 20px;
+}
+.form2 .results .box {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+  color: rgb(50, 4, 2);
+  width: 100px;
+}
+.task2,
+.task5,
+.task4 {
+  background-color: #fff3da;
+  margin: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.seprator2,
+.seprator1 {
+  width: 100%;
+  background-color: rgb(5, 48, 58);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #e7f3ff;
+}
+.seprator1 {
+  margin-bottom: 100px;
+}
+.seprator2 {
+  margin-top: 100px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.t2,
+.t3,
+.t4,
+.t5 {
+  background-color: #65a595;
+  margin-inline: 150px;
+  margin-block: 150px;
+}
+.assign {
+  text-align: center;
+  padding-top: 20px;
+}
+.assign input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+}
+.assign input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+.assign [title="Current"] {
+  padding: 20px;
+  margin: 10px auto;
+  width: 610px;
+  background-color: #f1f0f0;
+}
+.assign .classes-list {
+  padding: 20px;
+  margin: 10px auto;
+  width: 610px;
+  background-color: #f1f0f0;
+}
+.assign .classes-list h5 {
+  margin: 0 0 10px;
+  text-align: left;
+}
+.assign .classes-list span {
+  background-color: #497e71;
+  padding: 6px 10px 8px;
+  margin-right: 5px;
+  border-radius: 6px;
+  color: white;
+  display: inline-flex;
+}
+.t1 {
+  margin: 40px;
+  background-color: #ccc;
+}
+.t3 div,
+.t4 div,
+.t5 > * {
+  color: white;
+  padding: 2%;
+}
+.t5 > * {
+  cursor: pointer;
+}
